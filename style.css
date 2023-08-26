@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.download{
+    margin-top: 50px;
+}
