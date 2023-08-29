@@ -38,6 +38,7 @@ function downloadCSV(csv, filename) {
     link.click();
     download.removeChild(link);
     URL.revokeObjectURL(url);
+    location.reload(true);
 }
 
 function handleClick(){
